@@ -1,6 +1,6 @@
 ---
 ##Local username on Laptop##
-laptop_local_user:         rnelson
+laptop_local_user:         deversma
 
 ##Firewall ports that need to be opened##
 laptop_ports:
@@ -10,14 +10,14 @@ laptop_ports:
   - '22/udp'   # SSH
 
 ##Currently only referenced in /etc/hosts, but this will eventually be merged with other repos##
-domain:                    rnelson-demo.com
+domain:                    deversma-demo.com
 
-##Hostnames of RNELSON-DEMO Environment, this populates /etc/hosts##
-laptop_hostname:           laptop.rnelson-demo.com
-satellite_hostname:        satellite.rnelson-demo.com
-tower_hostname:            tower.rnelson-demo.com
-idm_hostname:              idm.rnelson-demo.com
-cloudforms_hostname:       cloudforms.rnelson-demo.com
+##Hostnames of DEVERSMA-DEMO Environment, this populates /etc/hosts##
+laptop_hostname:           laptop.deversma-demo.com
+satellite_hostname:        satellite.deversma-demo.com
+tower_hostname:            tower.deversma-demo.com
+idm_hostname:              idm.deversma-demo.com
+cloudforms_hostname:       cloudforms.deversma-demo.com
 
 ##IP Addresses of RNELSON-DEMO Environment, this populates /etc/hosts##
 laptop_ip_address:         192.168.126.1
