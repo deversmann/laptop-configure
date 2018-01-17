@@ -16,4 +16,4 @@ exit 0
 
 
 
-# bash wget -qO- https://github.com/rickmanley-nc/laptop-configure/raw/master/run.sh | sudo bash
+# bash wget -qO- https://github.com/deversmann/laptop-configure/raw/master/run.sh | sudo bash
