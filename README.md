@@ -11,9 +11,9 @@
 - Install Atom from <https://atom.io/>
   - "Ctrl + Shift + P", install Beautify and File Icons
 - Modify the following files with the correct variables for environment
-  - /home/rnelson/git/laptop-configure/group_vars/all
+  - /home/deversma/git/laptop-configure/group_vars/all
 - Execute the following command to pull down the run.sh script which will configure the environment and execute the main.yml playbook
-  - bash wget -qO- https://github.com/rickmanley-nc/laptop-configure/raw/master/run.sh | sudo bash
+  - bash wget -qO- https://github.com/deversmann/laptop-configure/raw/master/run.sh | sudo bash
 
 ## Roles
 
