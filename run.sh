@@ -4,7 +4,7 @@ sudo yum -y install git
 cd ~
 mkdir git
 cd git
-git clone git@github.com:rickmanley-nc/laptop-configure.git
+git clone git@github.com:deversmann/laptop-configure.git
 cd laptop-configure
 
 ansible-playbook -i hosts main.yml --ask-sudo-pass -t firewall,myfiles,packages,libvirtd,httpd,openscap,network
